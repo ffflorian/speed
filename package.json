@@ -4,6 +4,7 @@
     "my-cli": "dist/cli.js"
   },
   "dependencies": {
+    "speedtest-net": "2.1.1"
   },
   "description": "A boilerplate for a modern™ TypeScript project.",
   "devDependencies": {
@@ -33,7 +34,7 @@
     "rimraf": "3.0.2",
     "semantic-release": "17.1.1",
     "ts-node": "8.10.2",
-    "typescript": "3.9.7"
+    "typescript": "4.0.2"
   },
   "engines": {
     "node": ">= 10.9"
@@ -63,10 +64,10 @@
     ]
   },
   "main": "dist/index.js",
-  "name": "@ffflorian/ts-boilerplate",
+  "name": "@ffflorian/speed",
   "prettier": "@ffflorian/prettier-config",
   "private": true,
-  "repository": "https://github.com/ffflorian/ts-boilerplate.git",
+  "repository": "https://github.com/ffflorian/speed.git",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
@@ -80,7 +81,7 @@
     "lint:ts:spec": "eslint --ignore-path .gitignore --ext .ts --config .eslintrc.spec.json spec/",
     "prettier": "prettier \"*.{json,md,yml}\"",
     "release": "semantic-release",
-    "start": "ts-node src/cli.ts",
+    "start": "ts-node src/main.ts",
     "test": "ts-node -P tsconfig.jasmine.json node_modules/.bin/jasmine"
   },
   "version": "1.0.0"

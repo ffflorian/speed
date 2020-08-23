@@ -1,14 +1,10 @@
-# ts-boilerplate [![Build Status](https://github.com/ffflorian/ts-boilerplate/workflows/Build/badge.svg)](https://github.com/ffflorian/ts-boilerplate/actions/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/ts-boilerplate)](https://dependabot.com)
+# speed [![Build Status](https://github.com/ffflorian/speed/workflows/Build/badge.svg)](https://github.com/ffflorian/speed/actions/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/speed)](https://dependabot.com)
 
-A boilerplate for a modern™ TypeScript project.
-
-## Installation
-
-Fork this repository or just [generate a new one](https://github.com/ffflorian/ts-boilerplate/generate) from this template.
+Measure your internet speed over time.
 
 ## Usage
 
-- Clone your new repository
-- Run `yarn` in the new repository
-- Start coding
-- Don't forget to update the `package.json`!
+```
+yarn
+yarn start
+```

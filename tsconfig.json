@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
+    "baseUrl": ".",
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["esnext"],
@@ -12,9 +13,13 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "outDir": "dist",
+    "paths": {
+      "speedtest-net": ["additional-types/speedtest-net.d.ts"]
+    },
     "rootDir": "src",
     "sourceMap": true,
     "strict": true,
+
     "strictFunctionTypes": true,
     "target": "es6"
   },
